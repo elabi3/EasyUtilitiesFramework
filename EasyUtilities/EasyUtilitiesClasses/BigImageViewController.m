@@ -26,12 +26,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    
-    UIBarButtonItem *done = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"CloseWindow", nil) style:UIBarButtonItemStyleBordered target:self action:@selector(handlerDone)];
-    self.navigationItem.leftBarButtonItem = done;
     self.view.backgroundColor = [UIColor colorWithRed:(190/255.0) green:(187/255.0) blue:(186/255.0) alpha:1.0];
     
     // Cargamos los elementos que van sobre el view
+    [self loadDoneButton];
     [self loadImageView];
     [self loadScrollWithImageView];
 }
@@ -39,6 +37,17 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+-(void) loadDoneButton {
+    UIBarButtonItem *done = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"CloseWindow", nil) style:UIBarButtonItemStyleBordered target:self action:@selector(handlerDone)];
+    self.navigationItem.leftBarButtonItem = done;
+}
+
+
+-(void) handlerDone {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 
@@ -55,6 +64,7 @@
     imageView.frame = frame;
     imageView.image = self.image;
 }
+
 
 -(void) loadScrollWithImageView {
     scrollView =[[UIScrollView alloc] initWithFrame:self.view.frame];
@@ -78,9 +88,6 @@
     [self.view addSubview:scrollView];
 }
 
--(void) handlerDone {
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
 
 - (void) doubleTapToZoom:(UITapGestureRecognizer *)recognizer {
     static BOOL zoomed=NO;
@@ -96,6 +103,7 @@
         zoomed=NO;
     }
 }
+
 
 - (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
     return imageView;

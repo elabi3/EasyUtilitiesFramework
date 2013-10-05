@@ -14,6 +14,6 @@
 @property(strong, nonatomic) NSMutableArray * phones;
 @property(strong, nonatomic) NSMutableArray * emails;
 
-- (id)initWithName: (NSString *) name Phones: (NSMutableArray *) phones Emails: (NSMutableArray *) emails;
+- (id)initWithName:(NSString *) name  phones: (NSMutableArray *) phones  emails: (NSMutableArray *) emails;
 
 @end

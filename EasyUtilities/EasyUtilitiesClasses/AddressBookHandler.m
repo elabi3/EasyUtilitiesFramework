@@ -5,6 +5,7 @@
 #import "AddressBookHandler.h"
 #import <AddressBook/AddressBook.h>
 #import "AddressBookReduceEntry.h"
+#import "AddressBookEntry.h"
 
 static AddressBookHandler * instance;
 
@@ -164,7 +165,7 @@ static AddressBookHandler * instance;
         }
         NSString * fullName = [NSString stringWithFormat:@"%@ %@",name,surname];
         
-        AddressBookReduceEntry * agendaEntry = [[AddressBookReduceEntry alloc] initWithName:fullName Phones:allPhones Emails:allEmails];
+        AddressBookEntry * agendaEntry = [[AddressBookEntry alloc] initWithName:fullName phones:allPhones emails:allEmails];
         [addressBook addObject:agendaEntry];
         
         CFRelease(emails);
@@ -293,6 +294,16 @@ static AddressBookHandler * instance;
     return emailsAndPhones;
 }
 
+
+- (NSMutableArray *) getFavoriteContacts {
+    
+    return nil;
+}
+
+
+- (void) addNewContactFromEntry: (AddressBookEntry *) entry {
+    
+}
 
 
 @end

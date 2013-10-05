@@ -10,7 +10,7 @@
 
 @implementation AddressBookEntry
 
-- (id)initWithName: (NSString *) name Phones: (NSMutableArray *) phones Emails: (NSMutableArray *) emails {
+- (id)initWithName:(NSString *) name  phones: (NSMutableArray *) phones  emails: (NSMutableArray *) emails {
     self = [super init];
     if (self) {
         self.name = name;
