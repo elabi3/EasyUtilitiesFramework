@@ -2,9 +2,9 @@
 //  Created by
 //
 
-#import "AgendaEntry.h"
+#import "AddressBookEntry.h"
 
-@implementation AgendaEntry
+@implementation AddressBookEntry
 
 - (id)initWithName: (NSString *) name Phones: (NSMutableArray *) phones Emails: (NSMutableArray *) emails {
     self = [super init];

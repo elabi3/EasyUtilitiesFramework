@@ -4,7 +4,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ImagenGrandeViewController : UIViewController <UIScrollViewDelegate> {
+@interface BigImageViewController : UIViewController <UIScrollViewDelegate> {
     UIScrollView* scrollView;
     UIImageView *imageView;
     

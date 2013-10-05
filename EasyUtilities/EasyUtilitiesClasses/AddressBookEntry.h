@@ -4,7 +4,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface AgendaEntry : NSObject
+@interface AddressBookEntry : NSObject
 
 @property(strong, nonatomic) NSString * name;
 @property(strong, nonatomic) NSMutableArray * phones;

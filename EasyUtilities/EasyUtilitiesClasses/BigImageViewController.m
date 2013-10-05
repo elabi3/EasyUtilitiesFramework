@@ -2,13 +2,13 @@
 //  Created by
 //
 
-#import "ImagenGrandeViewController.h"
+#import "BigImageViewController.h"
 
-@interface ImagenGrandeViewController ()
+@interface BigImageViewController ()
 
 @end
 
-@implementation ImagenGrandeViewController
+@implementation BigImageViewController
 
 - (id)initWithImage:(UIImage *) image
 {    

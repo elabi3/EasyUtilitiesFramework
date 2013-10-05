@@ -27,13 +27,10 @@ static GeolocationManager *instance;
 }
 
 -(void) refreshLocation {
-    
-    //ALog(@"se llama a refresh location");
     [self.locationManager startUpdatingLocation];
 }
 
 -(void) refreshLocationWithManager:(CLLocationManager *) manager  {
-    //ALog(@"aqui?");
     self.locationManager = manager;
     [self.locationManager startUpdatingLocation];
 }
@@ -48,9 +45,6 @@ static GeolocationManager *instance;
            [[NSNotificationCenter defaultCenter] postNotificationName:@"currentLocation" object:location];
             [manager stopUpdatingLocation];
         }
-        
-        
-        
     }
 }
 

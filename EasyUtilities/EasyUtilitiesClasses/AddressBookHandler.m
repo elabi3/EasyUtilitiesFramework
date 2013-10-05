@@ -4,7 +4,7 @@
 
 #import "AddressBookHandler.h"
 #import <AddressBook/AddressBook.h>
-#import "AgendaEntry.h"
+#import "AddressBookEntry.h"
 
 static AddressBookHandler * instance;
 
@@ -109,7 +109,7 @@ static AddressBookHandler * instance;
         }
         NSString * fullName = [NSString stringWithFormat:@"%@ %@",name,surname];
         
-        AgendaEntry * agendaEntry = [[AgendaEntry alloc] initWithName:fullName Phones:allPhones Emails:allEmails];
+        AddressBookEntry * agendaEntry = [[AddressBookEntry alloc] initWithName:fullName Phones:allPhones Emails:allEmails];
         [addressBook addObject:agendaEntry];
         
         //CFRelease(sourceName);

@@ -7,8 +7,7 @@
 //
 
 #import "MainViewController.h"
-#import "AddressBookHandler.h"
-#import "AgendaEntry.h"
+#import "UtilitiesHeaders.h"
 
 @interface MainViewController ()
 
@@ -31,7 +30,7 @@
 	// Do any additional setup after loading the view.
     
     NSMutableArray *array = [[AddressBookHandler getInstance] getAgenda];
-    for (AgendaEntry * entry in array) {
+    for (AddressBookEntry * entry in array) {
         NSLog(@"%@\n", entry.name);
     }
 }

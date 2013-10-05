@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5F616B5A17FF954400AEB6A1 /* AddressBookHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F616B4D17FF954400AEB6A1 /* AddressBookHandler.m */; };
-		5F616B5B17FF954400AEB6A1 /* AgendaEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F616B4F17FF954400AEB6A1 /* AgendaEntry.m */; };
+		5F616B5B17FF954400AEB6A1 /* AddressBookEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F616B4F17FF954400AEB6A1 /* AddressBookEntry.m */; };
 		5F616B5C17FF954400AEB6A1 /* GeolocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F616B5117FF954400AEB6A1 /* GeolocationManager.m */; };
 		5F616B5D17FF954400AEB6A1 /* ImageActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F616B5317FF954400AEB6A1 /* ImageActions.m */; };
-		5F616B5E17FF954400AEB6A1 /* ImagenGrandeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F616B5517FF954400AEB6A1 /* ImagenGrandeViewController.m */; };
+		5F616B5E17FF954400AEB6A1 /* BigImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F616B5517FF954400AEB6A1 /* BigImageViewController.m */; };
 		5F616B5F17FF954400AEB6A1 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F616B5717FF954400AEB6A1 /* Reachability.m */; };
 		5F616B6017FF954400AEB6A1 /* ScreenSizeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F616B5917FF954400AEB6A1 /* ScreenSizeManager.m */; };
 		5F88F2A617FF8D7100077762 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F88F2A517FF8D7100077762 /* Foundation.framework */; };
@@ -45,18 +45,19 @@
 /* Begin PBXFileReference section */
 		5F616B4C17FF954400AEB6A1 /* AddressBookHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookHandler.h; sourceTree = "<group>"; };
 		5F616B4D17FF954400AEB6A1 /* AddressBookHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookHandler.m; sourceTree = "<group>"; };
-		5F616B4E17FF954400AEB6A1 /* AgendaEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgendaEntry.h; sourceTree = "<group>"; };
-		5F616B4F17FF954400AEB6A1 /* AgendaEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgendaEntry.m; sourceTree = "<group>"; };
+		5F616B4E17FF954400AEB6A1 /* AddressBookEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookEntry.h; sourceTree = "<group>"; };
+		5F616B4F17FF954400AEB6A1 /* AddressBookEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookEntry.m; sourceTree = "<group>"; };
 		5F616B5017FF954400AEB6A1 /* GeolocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeolocationManager.h; sourceTree = "<group>"; };
 		5F616B5117FF954400AEB6A1 /* GeolocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeolocationManager.m; sourceTree = "<group>"; };
 		5F616B5217FF954400AEB6A1 /* ImageActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageActions.h; sourceTree = "<group>"; };
 		5F616B5317FF954400AEB6A1 /* ImageActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageActions.m; sourceTree = "<group>"; };
-		5F616B5417FF954400AEB6A1 /* ImagenGrandeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagenGrandeViewController.h; sourceTree = "<group>"; };
-		5F616B5517FF954400AEB6A1 /* ImagenGrandeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagenGrandeViewController.m; sourceTree = "<group>"; };
+		5F616B5417FF954400AEB6A1 /* BigImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigImageViewController.h; sourceTree = "<group>"; };
+		5F616B5517FF954400AEB6A1 /* BigImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigImageViewController.m; sourceTree = "<group>"; };
 		5F616B5617FF954400AEB6A1 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		5F616B5717FF954400AEB6A1 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		5F616B5817FF954400AEB6A1 /* ScreenSizeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenSizeManager.h; sourceTree = "<group>"; };
 		5F616B5917FF954400AEB6A1 /* ScreenSizeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenSizeManager.m; sourceTree = "<group>"; };
+		5F616B6118007CA400AEB6A1 /* UtilitiesHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilitiesHeaders.h; sourceTree = "<group>"; };
 		5F88F2A217FF8D7100077762 /* EasyUtilities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyUtilities.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F88F2A517FF8D7100077762 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5F88F2A717FF8D7100077762 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -110,18 +111,19 @@
 			children = (
 				5F616B4C17FF954400AEB6A1 /* AddressBookHandler.h */,
 				5F616B4D17FF954400AEB6A1 /* AddressBookHandler.m */,
-				5F616B4E17FF954400AEB6A1 /* AgendaEntry.h */,
-				5F616B4F17FF954400AEB6A1 /* AgendaEntry.m */,
+				5F616B4E17FF954400AEB6A1 /* AddressBookEntry.h */,
+				5F616B4F17FF954400AEB6A1 /* AddressBookEntry.m */,
 				5F616B5017FF954400AEB6A1 /* GeolocationManager.h */,
 				5F616B5117FF954400AEB6A1 /* GeolocationManager.m */,
 				5F616B5217FF954400AEB6A1 /* ImageActions.h */,
 				5F616B5317FF954400AEB6A1 /* ImageActions.m */,
-				5F616B5417FF954400AEB6A1 /* ImagenGrandeViewController.h */,
-				5F616B5517FF954400AEB6A1 /* ImagenGrandeViewController.m */,
+				5F616B5417FF954400AEB6A1 /* BigImageViewController.h */,
+				5F616B5517FF954400AEB6A1 /* BigImageViewController.m */,
 				5F616B5617FF954400AEB6A1 /* Reachability.h */,
 				5F616B5717FF954400AEB6A1 /* Reachability.m */,
 				5F616B5817FF954400AEB6A1 /* ScreenSizeManager.h */,
 				5F616B5917FF954400AEB6A1 /* ScreenSizeManager.m */,
+				5F616B6118007CA400AEB6A1 /* UtilitiesHeaders.h */,
 			);
 			path = EasyUtilitiesClasses;
 			sourceTree = "<group>";
@@ -297,9 +299,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F88F2B817FF8D7100077762 /* AppDelegate.m in Sources */,
-				5F616B5E17FF954400AEB6A1 /* ImagenGrandeViewController.m in Sources */,
+				5F616B5E17FF954400AEB6A1 /* BigImageViewController.m in Sources */,
 				5F616B5A17FF954400AEB6A1 /* AddressBookHandler.m in Sources */,
-				5F616B5B17FF954400AEB6A1 /* AgendaEntry.m in Sources */,
+				5F616B5B17FF954400AEB6A1 /* AddressBookEntry.m in Sources */,
 				5F616B5F17FF954400AEB6A1 /* Reachability.m in Sources */,
 				5F88F2B417FF8D7100077762 /* main.m in Sources */,
 				5F616B5C17FF954400AEB6A1 /* GeolocationManager.m in Sources */,
