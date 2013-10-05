@@ -12,5 +12,4 @@
 + (GeolocationManager *) getInstance;
 -(void) refreshLocation;
 
-
 @end
