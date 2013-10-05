@@ -1,14 +1,10 @@
 //
-//  AddressBookEntry.m
-//  EasyUtilities
-//
-//  Created by elabi3 on 05/10/13.
-//  Copyright (c) 2013 elabi3. All rights reserved.
+//  Created by
 //
 
-#import "AddressBookEntry.h"
+#import "AddressBookReduceEntry.h"
 
-@implementation AddressBookEntry
+@implementation AddressBookReduceEntry
 
 - (id)initWithName: (NSString *) name Phones: (NSMutableArray *) phones Emails: (NSMutableArray *) emails {
     self = [super init];
@@ -19,5 +15,6 @@
     }
     return self;
 }
+
 
 @end

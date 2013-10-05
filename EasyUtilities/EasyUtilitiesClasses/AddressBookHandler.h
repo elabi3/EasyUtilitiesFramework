@@ -10,8 +10,9 @@
 @property(strong, nonatomic) NSMutableDictionary * contactNames;
 
 + (AddressBookHandler *) getInstance;
-- (NSMutableArray *)getAgenda;
 
-- (NSMutableDictionary *)getEmailsAndPhonesFromAddresBook;
+- (NSMutableArray *) getReduceAddressBook;
+- (NSMutableArray *) getAddressBook;
+- (NSMutableDictionary *) getEmailsAndPhonesFromAddresBook;
 
 @end

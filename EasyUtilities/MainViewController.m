@@ -29,8 +29,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    NSMutableArray *array = [[AddressBookHandler getInstance] getAgenda];
-    for (AddressBookEntry * entry in array) {
+    NSMutableArray *array = [[AddressBookHandler getInstance] getReduceAddressBook];
+    for (AddressBookReduceEntry * entry in array) {
         NSLog(@"%@\n", entry.name);
     }
 }

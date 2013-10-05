@@ -1,6 +1,7 @@
 
 #import "AddressBookHandler.h"
 #import "AddressBookEntry.h"
+#import "AddressBookReduceEntry.h"
 #import "GeolocationManager.h"
 #import "ImageActions.h"
 #import "BigImageViewController.h"

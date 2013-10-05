@@ -1,14 +1,10 @@
 //
-//  AddressBookEntry.h
-//  EasyUtilities
-//
-//  Created by elabi3 on 05/10/13.
-//  Copyright (c) 2013 elabi3. All rights reserved.
+//  Created by
 //
 
 #import <Foundation/Foundation.h>
 
-@interface AddressBookEntry : NSObject
+@interface AddressBookReduceEntry : NSObject
 
 @property(strong, nonatomic) NSString * name;
 @property(strong, nonatomic) NSMutableArray * phones;
