@@ -1,7 +1,7 @@
 EasyUtilitiesFramework
 ======================
 
-ShareFramework helps you to share content with others apps in iOS
+EasyUtilitiesFramework...
 
 <h2>Add to your project</h2>
 
